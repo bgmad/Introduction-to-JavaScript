@@ -25,7 +25,7 @@ describe('hungryDogFunction', ()=>{
 });
 describe('gameFunction', ()=>{
     it('return win, lose or tie', ()=>{
-        expect(functions.game('rock', 'sissors')).toBe('you win!');
+        expect(functions.game('rock', 'scissors')).toBe('you win!'); //fixed misspelling of scissors. Added the c.
     })
     it('return win, lose or tie', ()=>{
         expect(functions.game('rock', 'paper')).toBe('you lose!');
